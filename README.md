@@ -17,7 +17,7 @@ Distributed Tree-based Multicast Routing (DTMR) for VANET (Vehicular Adhoc Netwo
     iface lo inet loopback
 
     auto eth0
-    iface eth0 inet dhcphttps://opensecurity.in
+    iface eth0 inet dhcp
 
     auto wlan0  
     iface wlan0 inet static  
