@@ -3,11 +3,11 @@ Distributed Tree-based Multicast Routing (DTMR) for VANET (Vehicular Adhoc Netwo
 
 ![Vanet image](utils/images/vanet.png)
 
-###What is VANET ?  
+### What is VANET ?  
 - A vehicular ad hoc network (VANET) consists of groups of moving or stationary vehicles connected by a wireless network.  
 [wikipedia](https://en.wikipedia.org/wiki/Vehicular_ad-hoc_network)
 
-###Setting up Adhoc-Network Mode in Raspberry PI  
+### Setting up Adhoc-Network Mode in Raspberry PI  
 
 - To set up an ad-hoc-network interface with a static IP in raspberry pi add the following lines to the `/etc/network/interfaces` file in raspberry. This will turn the wifi interface of the raspberry into an Adhoc network interface with static IP. Through this method both ethernet and wifi interface of the pi will be accessible.
 
@@ -17,7 +17,7 @@ Distributed Tree-based Multicast Routing (DTMR) for VANET (Vehicular Adhoc Netwo
     iface lo inet loopback
 
     auto eth0
-    iface eth0 inet dhcp
+    iface eth0 inet dhcphttps://opensecurity.in
 
     auto wlan0  
     iface wlan0 inet static  
