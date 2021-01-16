@@ -1,7 +1,7 @@
 # VANET-DTMR
 Distributed Tree-based Multicast Routing (DTMR) for VANET (Vehicular Adhoc Network)
 
-![Vanet image](utils/images/vanet.png)
+![Vanet image](https://www.researchgate.net/profile/Anis_Ur_Rahman2/publication/330772224/figure/fig3/AS:727739887783938@1550518118286/VANET-communication-architecture.png)
 
 ### What is VANET ?  
 - A vehicular ad hoc network (VANET) consists of groups of moving or stationary vehicles connected by a wireless network.  
